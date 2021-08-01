@@ -1,0 +1,4 @@
+ERR001: file loading error
+ERR002: exception thrown
+ERR003: failed reception from server
+ERR004: failed transmission to server
