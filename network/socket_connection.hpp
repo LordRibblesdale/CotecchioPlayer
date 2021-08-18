@@ -7,6 +7,8 @@
 
 #include <string>
 
+extern std::string receivedString;
+
 void initialiseConnection();
 
 void sendStringToServer(std::string& message);
