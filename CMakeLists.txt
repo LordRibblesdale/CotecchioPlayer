@@ -32,5 +32,10 @@ if (WIN32)
     endif()
 endif()
 
+if (EXISTS "${CMAKE_BINARY_DIR}/settings.xml")
+    file(REMOVE "${CMAKE_BINARY_DIR}/settings.xml")
+endif()
+
 file(COPY "settings.xml" DESTINATION "${CMAKE_BINARY_DIR}")
+
 file(COPY "languages" DESTINATION "${CMAKE_BINARY_DIR}")

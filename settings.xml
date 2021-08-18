@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <settings>
     <!--<network ip="93.51.48.149" port="443"/>-->
-    <network ip="127.0.0.1" port="443"/>
+    <network ip="192.168.1.67" port="443"/>
     <language language="it" country="IT"/>
 </settings>
