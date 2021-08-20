@@ -4,7 +4,7 @@
 
 #include <iostream>
 
-#include "socket_connection.hpp"
+#include "SocketConnection.hpp"
 #include "../variables.hpp"
 
 typedef boost::asio::ip::address_v4 address_v4;

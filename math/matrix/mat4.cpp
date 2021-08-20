@@ -1,6 +1,6 @@
 #include <algorithm>
 #include "mat4.hpp"
-#include "../math_consts.hpp"
+#include "../MathConsts.hpp"
 
 template <typename V>
 Matrix4<V, std::enable_if_t<std::is_floating_point<V>::value>>::Matrix4() {

@@ -3,8 +3,8 @@
  */
 
 #include <iostream>
-#include "xml/xml_handler.hpp"
-#include "network/socket_connection.hpp"
+#include "xml/XmlHandler.hpp"
+#include "network/SocketConnection.hpp"
 
 int main(int argc, char* argv[]) {
     loadXML(Settings::settingsPath, SETTINGS);

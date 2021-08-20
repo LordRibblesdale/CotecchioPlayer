@@ -5,6 +5,7 @@ set(CMAKE_CXX_STANDARD 17)
 
 file(GLOB_RECURSE common "common/*.cpp" "common/*.hpp")
 file(GLOB_RECURSE lib "lib/*.cpp" "lib/*.hpp")
+file(GLOB_RECURSE game "game/*.cpp" "game/*.hpp")
 file(GLOB_RECURSE math "math/*.cpp" "math/*.hpp")
 file(GLOB_RECURSE network "network/*.cpp" "network/*.hpp")
 file(GLOB_RECURSE xml "xml/*.cpp" "xml/*.hpp")
@@ -13,6 +14,7 @@ file(GLOB root "*.hpp" "*.cpp")
 add_executable(${PROJECT_NAME}
         ${common}
         ${lib}
+        ${game}
         ${math}
         ${network}
         ${xml}

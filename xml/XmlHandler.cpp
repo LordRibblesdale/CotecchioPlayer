@@ -5,7 +5,7 @@
 #include <iostream>
 #include <memory>
 
-#include "xml_handler.hpp"
+#include "XmlHandler.hpp"
 
 
 void loadXMLSettings(const rapidxml::xml_document<>& document);

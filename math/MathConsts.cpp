@@ -1,4 +1,4 @@
-#include "math_consts.hpp"
+#include "MathConsts.hpp"
 #include <cmath>
 
 double MathPI::PI = 3.1415926535897932384626433;

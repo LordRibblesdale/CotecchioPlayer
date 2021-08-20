@@ -1,6 +1,6 @@
 #include <algorithm>
 #include "mat3.hpp"
-#include "../math_consts.hpp"
+#include "../MathConsts.hpp"
 
 template <typename V>
 Matrix3<V, std::enable_if_t<std::is_floating_point<V>::value>>::Matrix3() {
